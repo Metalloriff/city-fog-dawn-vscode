@@ -1,0 +1,26 @@
+{
+	"publisher": "Metalloriff",
+	"name": "city-fog-dawn",
+	"displayName": "City Fog, Dawn (Light Theme)",
+	"description": "A light version of the City Fog theme for VS Code.",
+	"repository": {
+		"url": "https://github.com/Metalloriff/city-fog-dawn-vscode"
+	},
+	"icon": "logo512.png",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "City Fog, Dawn (Light Theme)",
+				"uiTheme": "vs",
+				"path": "./themes/cf-dawn-theme.json"
+			}
+		]
+	}
+}
